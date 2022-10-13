@@ -16,9 +16,9 @@ public class applyforces : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            ourRigidBody.AddExplosionForce(1000,transform.position+Vector3.down,2);
+            ourRigidBody.AddExplosionForce(500,transform.position+Vector3.down,2);
         }
             
         
